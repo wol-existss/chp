@@ -1,3 +1,39 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+/* tailwind */
 @import 'tailwindcss';
+/* auxiliary tools and items */
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+
+
+:root {
+
+    /* bg */
+    --background-brand-lavender: #A0A3D0;
+    --background-dark-lavender: #6C6F9C;
+    --background-deep-lavender: #393B5C;
+
+    /* accent*/
+    --accent-soft-cream: #EFECE9;
+
+    /* text */
+    --text-cream: #DEDAD7;
+    --text-light-cream: #F7F5F3;
+
+    /* fonts */
+    --font-display: "Instrument Serif", Georgia, serif;
+    --font-body: "Plus Jakarta Sans", Georgia, serif;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--background-deep-lavender);
+    color: var(--text-light-cream);
+    font-family: var(--font-body);
+}
