@@ -2,12 +2,12 @@
     import { Button } from "#lib/components/ui/button";
     import { Badge } from "#lib/components/ui/badge";
     import { Separator } from "#lib/components/ui/separator";
-    import * as Sheet from "#lib/components/ui/sheet";
+
+    import * as Accordion from "#lib/components/ui/accordion";
+    import * as Card from "#lib/components/ui/card";
     import * as Carousel from "#lib/components/ui/carousel";
-    import * as DropdownMenu from "#lib/components/ui/dropdown-menu";
-    import * as Tooltip from "#lib/components/ui/tooltip";
-    import * as Tabs from "#lib/components/ui/tabs";
     import * as Dialog from "#lib/components/ui/dialog";
+    import * as Sheet from "#lib/components/ui/sheet";
 </script>
 
 <header class="w-full">
