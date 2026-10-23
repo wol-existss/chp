@@ -1,1 +1,7 @@
-// place files you want to import through the `#lib` alias in this folder.
+// shadcn-svelte items
+
+// Primatives
+
+// Compound components (???)
+
+// If one wishes to utilize this file later, so be it. I will leave it here.
